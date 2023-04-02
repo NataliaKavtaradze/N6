@@ -75,6 +75,7 @@ main {
 
 footer {
   display: flex;
+  justify-content: space-between;
   background-color: rgba(83, 83, 83, 0.33);
   padding: 108px 52px;
 }
@@ -93,4 +94,31 @@ footer {
 .inst-icon {
   padding-left: 20.62px;
   padding-right: 20.68px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links h3 {
+  padding-bottom: 71px;
+}
+
+.footer-links span {
+  padding-bottom: 30px;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.94px;
+  color: rgba(83, 83, 83, 1);
+}
+
+button {
+  width: 80px;
+  height: 45px;
+  background-color: rgba(5, 74, 104, 1);
+  color:
+    rgba(255, 255, 255, 1);
+  margin-top: 58.45px;
 }
