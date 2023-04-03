@@ -78,6 +78,7 @@ footer {
   justify-content: space-between;
   background-color: rgba(83, 83, 83, 0.33);
   padding: 108px 52px;
+  margin-top: 48px;
 }
 
 .footer-content {
