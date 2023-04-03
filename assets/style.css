@@ -13,6 +13,11 @@ header {
   align-items: center;
 }
 
+header,
+main {
+  margin-left: 50px;
+}
+
 h1 {
   font-family: Inter;
   font-weight: 600;
